@@ -29,9 +29,9 @@
 
 /* Begin PBXFileReference section */
 		03D53F91F9974BE2E1245B21 /* Pods_geoLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geoLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0EC1AF0C1D11F9694A7A510A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0EC1AF0C1D11F9694A7A510A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		110F8F13C8B048B397502FDF /* Pods-geoLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geoLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-geoLib_Example/Pods-geoLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		294FA14CBBEB70F3D81BF304 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		294FA14CBBEB70F3D81BF304 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4D2CA7599A8D72FEA2A6753C /* Pods-geoLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geoLib_Example.release.xcconfig"; path = "Target Support Files/Pods-geoLib_Example/Pods-geoLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* geoLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geoLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		875A7DF604AEEEC8FF073654 /* Pods-geoLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geoLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-geoLib_Tests/Pods-geoLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8CE714B95BC5B2B13FB41C17 /* geoLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = geoLib.podspec; path = ../geoLib.podspec; sourceTree = "<group>"; };
+		8CE714B95BC5B2B13FB41C17 /* geoLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = geoLib.podspec; path = ../geoLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9017C50E5736D604C59D5EB4 /* Pods-geoLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geoLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-geoLib_Tests/Pods-geoLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9EDA31B20D0D3CDEDA647D91 /* Pods_geoLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geoLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				9017C50E5736D604C59D5EB4 /* Pods-geoLib_Tests.debug.xcconfig */,
 				875A7DF604AEEEC8FF073654 /* Pods-geoLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
