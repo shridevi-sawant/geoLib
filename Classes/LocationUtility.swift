@@ -76,6 +76,10 @@ public class LocationWrapper {
         utility.startTracking()
     }
     
+    public func stopTracking(){
+        utility.stopTracking()
+    }
+    
     public func getCurrentLocation() -> CLLocation? {
         return utility.currentLocation
     }
